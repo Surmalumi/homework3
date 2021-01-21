@@ -12,7 +12,7 @@ def sum():
                    result += int(i)
             except ValueError:
                 print('Введите еще числа или знак = для выхода')
-        print(f'Sum is {result}')
+        print(f'Сумма чисел равна {result}')
 print(sum())
 
 
